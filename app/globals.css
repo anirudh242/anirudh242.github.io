@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+a.group:hover svg {
+  color: #0f172a; /* slate-900 */
+}
+html.dark a.group:hover svg {
+  color: #fff;
+}

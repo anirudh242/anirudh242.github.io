@@ -1,35 +1,10 @@
-// 'use client';
-
-// import { useTheme } from 'next-themes';
-
-// export function ThemeSwitcher() {
-//   const { setTheme } = useTheme();
-
-//   return (
-//     <div className="flex gap-2">
-//       <button
-//         onClick={() => setTheme('light')}
-//         className="p-2 border border-muted dark:border-muted-dark rounded"
-//       >
-//         Light
-//       </button>
-//       <button
-//         onClick={() => setTheme('dark')}
-//         className="p-2 border border-muted dark:border-muted-dark rounded"
-//       >
-//         Dark
-//       </button>
-//     </div>
-//   );
-// }
-
 'use client';
 
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { Moon, Sun } from 'lucide-react';
 
-export const ThemeSwitcher = () => {
+export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -38,7 +13,6 @@ export const ThemeSwitcher = () => {
   }, []);
 
   if (!mounted) {
-    // Render a placeholder to prevent layout shift
     return <div className="w-10 h-10" />;
   }
 
@@ -72,4 +46,4 @@ export const ThemeSwitcher = () => {
       />
     </button>
   );
-};
+}
