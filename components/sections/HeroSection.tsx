@@ -13,7 +13,7 @@ export default function HeroSection() {
           href="https://github.com/anirudh242/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted dark:text-muted-dark hover:text-accent dark:hover:text-accent transition-colors"
+          className="text-muted dark:text-muted-dark hover:text-accent-darker dark:hover:text-accent transition-colors"
         >
           <Github size={24} />
         </a>
@@ -21,7 +21,7 @@ export default function HeroSection() {
           href="https://linkedin.com/in/bhardwaj-anirudh/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted dark:text-muted-dark hover:text-accent dark:hover:text-accent transition-colors"
+          className="text-muted dark:text-muted-dark hover:text-accent-darker dark:hover:text-accent transition-colors"
         >
           <Linkedin size={24} />
         </a>

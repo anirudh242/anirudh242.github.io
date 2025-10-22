@@ -21,12 +21,13 @@ export default function ProjectCard({
       </h3>
       <p className="text-muted dark:text-muted-dark">{description}</p>
       <div className="flex flex-wrap gap-x-4 gap-y-2">
-        {tags.map((tag) => (
+        {tags.map((tag, index) => (
           <span
             key={tag}
             className="text-accent-darker dark:text-accent font-semibold text-sm"
           >
             {tag}
+            {index !== tags.length - 1 && ' •'}
           </span>
         ))}
       </div>
