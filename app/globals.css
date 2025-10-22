@@ -1,1 +1,21 @@
 @import 'tailwindcss';
+
+@theme {
+  /* This block replaces the 'theme: { ... }' 
+    object from your config file.
+  */
+
+  /* Font Family */
+  --font-family-mono: '"Space Mono"', 'monospace';
+
+  /* Colors */
+  --colors-background: #faf9f6;
+  --colors-foreground: #1a1a1a;
+  --colors-background-dark: #1a1a1a;
+  --colors-foreground-dark: #fef7de;
+
+  --colors-accent: #2ecc71;
+  --colors-accent-darker: #1e8449;
+  --colors-muted: #555555;
+  --colors-muted-dark: #888888;
+}

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Space_Mono } from 'next/font/google';
-import { ThemeProvider } from './theme-provider';
+import { ThemeProvider } from '@/providers/theme-provider';
 import './globals.css';
 
 const spaceMono = Space_Mono({
@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={spaceMono.className}>
+      <body
+        className={`${spaceMono.className} bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
