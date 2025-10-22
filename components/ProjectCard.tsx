@@ -24,7 +24,7 @@ export default function ProjectCard({
         {tags.map((tag) => (
           <span
             key={tag}
-            className="text-accent dark:text-accent font-semibold text-sm"
+            className="text-accent-darker dark:text-accent font-semibold text-sm"
           >
             {tag}
           </span>

@@ -22,14 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${spaceMono.className} bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark`}
+        className={`${spaceMono.className} bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark transition-colors duration-300`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>
       </body>
