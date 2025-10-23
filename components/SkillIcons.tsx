@@ -1,4 +1,4 @@
-export const cssSvg = (
+const cssSvg = (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>CSS</title>
     <path
@@ -9,7 +9,7 @@ export const cssSvg = (
   </svg>
 );
 
-export const cSvg = (
+const cSvg = (
   <svg role="img" viewBox="0 -1 24 26" xmlns="http://www.w3.org/2000/svg">
     <title>C</title>
     <path
@@ -20,7 +20,7 @@ export const cSvg = (
   </svg>
 );
 
-export const cppSvg = (
+const cppSvg = (
   <svg
     fill="currentColor"
     viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ export const cppSvg = (
   </svg>
 );
 
-export const dockerSvg = (
+const dockerSvg = (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>Docker</title>
     <path
@@ -42,7 +42,7 @@ export const dockerSvg = (
   </svg>
 );
 
-export const expressSvg = (
+const expressSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ export const expressSvg = (
   </svg>
 );
 
-export const nodejsSvg = (
+const nodejsSvg = (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>Node.js</title>
     <path
@@ -68,7 +68,7 @@ export const nodejsSvg = (
   </svg>
 );
 
-export const flaskSvg = (
+const flaskSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -85,7 +85,7 @@ export const flaskSvg = (
   </svg>
 );
 
-export const androidSvg = (
+const androidSvg = (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>Android</title>
     <path
@@ -95,7 +95,7 @@ export const androidSvg = (
   </svg>
 );
 
-export const genAiSvg = (
+const genAiSvg = (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>OpenAI</title>
     <path
@@ -105,7 +105,7 @@ export const genAiSvg = (
   </svg>
 );
 
-export const gitSvg = (
+const gitSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -120,7 +120,7 @@ export const gitSvg = (
   </svg>
 );
 
-export const html5Svg = (
+const html5Svg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -135,7 +135,7 @@ export const html5Svg = (
   </svg>
 );
 
-export const javaSvg = (
+const javaSvg = (
   // Adjusted viewBox based on original attributes
   <svg
     role="img"
@@ -151,7 +151,7 @@ export const javaSvg = (
   </svg>
 );
 
-export const javascriptSvg = (
+const javascriptSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -166,7 +166,7 @@ export const javascriptSvg = (
   </svg>
 );
 
-export const linuxSvg = (
+const linuxSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -181,7 +181,7 @@ export const linuxSvg = (
   </svg>
 );
 
-export const mongodbSvg = (
+const mongodbSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -196,7 +196,7 @@ export const mongodbSvg = (
   </svg>
 );
 
-export const numpySvg = (
+const numpySvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -211,7 +211,7 @@ export const numpySvg = (
   </svg>
 );
 
-export const pandasSvg = (
+const pandasSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -226,7 +226,7 @@ export const pandasSvg = (
   </svg>
 );
 
-export const postgresqlSvg = (
+const postgresqlSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -241,7 +241,7 @@ export const postgresqlSvg = (
   </svg>
 );
 
-export const pythonSvg = (
+const pythonSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -256,7 +256,7 @@ export const pythonSvg = (
   </svg>
 );
 
-export const reactSvg = (
+const reactSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -271,7 +271,7 @@ export const reactSvg = (
   </svg>
 );
 
-export const scikitlearnSvg = (
+const scikitlearnSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -286,7 +286,7 @@ export const scikitlearnSvg = (
   </svg>
 );
 
-export const supabaseSvg = (
+const supabaseSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -301,7 +301,7 @@ export const supabaseSvg = (
   </svg>
 );
 
-export const tailwindcssSvg = (
+const tailwindcssSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -316,7 +316,7 @@ export const tailwindcssSvg = (
   </svg>
 );
 
-export const typescriptSvg = (
+const typescriptSvg = (
   <svg
     role="img"
     viewBox="0 0 24 24"
@@ -330,3 +330,41 @@ export const typescriptSvg = (
     />
   </svg>
 );
+
+export const skillsWithLogos = [
+  // Languages
+  { name: 'JavaScript', svg: javascriptSvg },
+  { name: 'TypeScript', svg: typescriptSvg },
+  { name: 'Python', svg: pythonSvg },
+  { name: 'Java', svg: javaSvg },
+  { name: 'C++', svg: cppSvg },
+  { name: 'C', svg: cSvg },
+  { name: 'HTML5', svg: html5Svg },
+  { name: 'CSS', svg: cssSvg },
+
+  // Frontend Frameworks/Libraries
+  { name: 'React', svg: reactSvg },
+  { name: 'Tailwind CSS', svg: tailwindcssSvg },
+
+  // Backend Frameworks
+  { name: 'Node.js', svg: nodejsSvg },
+  { name: 'Express', svg: expressSvg },
+  { name: 'Flask', svg: flaskSvg },
+
+  // Data Science / ML
+  { name: 'NumPy', svg: numpySvg },
+  { name: 'Pandas', svg: pandasSvg },
+  { name: 'Scikit-learn', svg: scikitlearnSvg },
+
+  // Databases / BaaS
+  { name: 'PostgreSQL', svg: postgresqlSvg },
+  { name: 'MongoDB', svg: mongodbSvg },
+  { name: 'Supabase', svg: supabaseSvg },
+
+  // Tools & Technologies
+  { name: 'Git', svg: gitSvg },
+  { name: 'Docker', svg: dockerSvg },
+  { name: 'Linux', svg: linuxSvg },
+  { name: 'Generative AI', svg: genAiSvg },
+  { name: 'App Development', svg: androidSvg },
+];
