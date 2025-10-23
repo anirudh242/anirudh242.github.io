@@ -17,6 +17,21 @@ export default function ProjectSection() {
           tags={['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Statsmodels']}
           href="https://github.com/anirudh242/Pairs-Trading-Backtester"
         />
+        <ProjectCard
+          title="ClassRep App"
+          description="Mobile app focused on bringing organised communication and efficient homework submission to my university's classrooms."
+          tags={[
+            'Typescript',
+            'Mobile App Development',
+            'Serverless',
+            'React Native',
+            'TailwindCSS',
+            'Supabase',
+            'PostgreSQL',
+            'Edge Functions',
+          ]}
+          href="https://github.com/anirudh242/ClassRep"
+        />
       </div>
     </section>
   );
