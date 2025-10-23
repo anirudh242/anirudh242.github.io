@@ -20,6 +20,10 @@ import {
   dockerSvg,
   linuxSvg,
   nodejsSvg,
+  cppSvg,
+  cSvg,
+  androidSvg,
+  genAiSvg,
 } from '../SkillIcons';
 
 const skillsWithLogos = [
@@ -28,6 +32,8 @@ const skillsWithLogos = [
   { name: 'TypeScript', svg: typescriptSvg },
   { name: 'Python', svg: pythonSvg },
   { name: 'Java', svg: javaSvg },
+  { name: 'C++', svg: cppSvg },
+  { name: 'C', svg: cSvg },
   { name: 'HTML5', svg: html5Svg },
   { name: 'CSS', svg: cssSvg },
 
@@ -54,6 +60,8 @@ const skillsWithLogos = [
   { name: 'Git', svg: gitSvg },
   { name: 'Docker', svg: dockerSvg },
   { name: 'Linux', svg: linuxSvg },
+  { name: 'Generative AI', svg: genAiSvg },
+  { name: 'App Development', svg: androidSvg },
 ];
 
 export default function SkillsSection() {
