@@ -2,6 +2,7 @@ import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import HeroSection from '@/components/sections/HeroSection';
 import ProjectSection from '@/components/sections/ProjectSection';
 import ContactSection from '@/components/sections/ContactSection';
+import SkillsSection from '@/components/sections/SkillSection';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         </header>
         <HeroSection />
         <ProjectSection />
+        <SkillsSection />
         <ContactSection />
       </div>
     </main>
