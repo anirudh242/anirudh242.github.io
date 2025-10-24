@@ -9,9 +9,28 @@ const spaceMono = Space_Mono({
   variable: '--font-space-mono',
 });
 
+const siteUrl = 'https://anirudh242.github.io/portfolio-new';
+const previewImageUrl = `${siteUrl}/og-image.jpg`;
+
 export const metadata: Metadata = {
   title: 'Anirudh Bhardwaj | Portfolio',
   description: 'The portfolio of Anirudh Bhardwaj, a Computer Science Student.',
+  openGraph: {
+    title: 'Anirudh Bhardwaj | Portfolio',
+    description: 'Computer Science Student crafting digital experiences.',
+    url: siteUrl,
+    siteName: 'Anirudh Bhardwaj Portfolio',
+    images: [
+      {
+        url: previewImageUrl,
+        width: 1200,
+        height: 630,
+        alt: 'Anirudh Bhardwaj Portfolio Preview',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
