@@ -2,13 +2,11 @@ import Image from 'next/image';
 import { Github, Linkedin } from 'lucide-react';
 
 export default function HeroSection() {
-  const assetPrefix =
-    process.env.NODE_ENV === 'production' ? '/portfolio-new' : '';
   return (
     <section className="flex flex-col md:flex-row items-center md:items-start gap-8">
       <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden flex-shrink-0 mt-4 md:mt-0">
         <Image
-          src={`${assetPrefix}/profile.jpg`}
+          src={`/profile.jpg`}
           alt="Anirudh Bhardwaj profile picture"
           layout="fill"
           objectFit="cover"
