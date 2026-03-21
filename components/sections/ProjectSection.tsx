@@ -9,14 +9,14 @@ export default function ProjectSection() {
       title: 'Flappy Bird AI',
       description:
         'A reinforcement learning project where a Deep Q-Network agent learns to play Flappy Bird.',
-      tags: ['Python', 'Neural Networks', 'PyTorch', 'NumPy', 'PyGame'],
+      tags: ['Python', 'PyTorch', 'Neural Networks', 'NumPy', 'PyGame'],
       href: 'https://github.com/anirudh242/flappybird-dqn',
     },
     {
       title: 'Pairs Trading Backtester',
       description:
         'A quantitative framework that discovers, optimizes, and validates market-neutral pairs trading strategies using rigorous in-sample/out-of-sample backtesting.',
-      tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Statsmodels'],
+      tags: ['Python', 'Pandas', 'NumPy', 'Statsmodels', 'Matplotlib'],
       href: 'https://github.com/anirudh242/Pairs-Trading-Backtester',
     },
     {
@@ -24,16 +24,23 @@ export default function ProjectSection() {
       description:
         "Mobile app focused on bringing organised communication and efficient homework submission to my university's classrooms.",
       tags: [
-        'Typescript',
-        'Mobile App Development',
-        'Serverless',
         'React Native',
-        'TailwindCSS',
+        'TypeScript',
         'Supabase',
         'PostgreSQL',
         'Edge Functions',
+        'Serverless',
+        'TailwindCSS',
+        'Mobile App Development',
       ],
       href: 'https://github.com/anirudh242/ClassRep',
+    },
+    {
+      title: 'Blockchain Club CU Website',
+      description:
+        'Created and maintained the website for my universities Blockchain Club.',
+      tags: ['Next.js', 'TailwindCSS', 'Frontend Development', 'UI/UX'],
+      href: 'https://github.com/Blockchain-Club-CU/blockchain-club-cu.github.io',
     },
   ];
 
