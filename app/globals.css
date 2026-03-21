@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes skill-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-marquee {
+  animation: skill-marquee 28s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-marquee {
+    animation: none;
+  }
+}
