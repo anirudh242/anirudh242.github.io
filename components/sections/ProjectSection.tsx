@@ -3,8 +3,25 @@ import { useState } from 'react';
 import ProjectCard from '../ProjectCard';
 import Modal from '../Modal';
 
+type projectType = {
+  title: string;
+  description: string;
+  longDesc?: string;
+  tags: string[];
+  href: string;
+};
+
 export default function ProjectSection() {
-  const projects = [
+  const projects: projectType[] = [
+    {
+      title: 'GradFlow',
+      description:
+        'A C++ library I built from scratch with 0 external dependancies. Implements a Multi-Layer Perceptron (MLP)',
+      longDesc:
+        'GradFlow is a custom-built machine learning framework I built to gain a deeper understanding of what happens under the hood of modern AI. Instead of relying on external libraries like PyTorch, this project implements the mathematics and architecture required to build a neural network from the ground up.',
+      tags: ['C++', 'Machine Learning', 'Systems Programming'],
+      href: 'https://github.com/anirudh242/gradflow/',
+    },
     {
       title: 'Flappy Bird AI',
       description:
@@ -70,7 +87,9 @@ export default function ProjectSection() {
         {selected ? (
           <div className="space-y-4">
             <p className="text-muted dark:text-muted-dark">
-              {selected.description}
+              {selected.longDesc != null
+                ? selected.longDesc
+                : selected.description}
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2">
               {selected.tags.map((tag, index) => (
